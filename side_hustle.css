@@ -1,0 +1,40 @@
+.odin {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+    background-image: url(/side_hustle/waves.jpeg);
+    visibility: visible;
+}
+
+.Detail {
+    height: 30px;
+    width: 250px;
+}
+
+#customer_Details {
+    display: grid;
+    color: rgb(54, 37, 97);
+    gap: 2rem;
+    column-gap: 20rem;
+    font-size: larger;
+    height: auto;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+button {
+    color: rgb(0, 2, 2);
+    background-color:  #596D48;
+    width: 400px;
+    border-radius: 10%;
+    margin-top: 5px;
+    padding: 15px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+content {
+    background-color: rgba(167, 167, 167, 0.24);
+}
